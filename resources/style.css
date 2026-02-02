@@ -6,6 +6,7 @@
         --accent-500: #00a7a7;
         --accent-400: #1cc2b8;
         --accent-300: #f5b841;
+        --accent-200: #405e77;
         --neutral-900: #0f172a;
         --neutral-700: #334155;
         --neutral-500: #64748b;
@@ -64,6 +65,7 @@
       .container {
         width: min(92%, var(--max-width));
         margin: 0 auto;
+        
       }
 
       .top-bar {
@@ -88,7 +90,7 @@
       header {
         position: sticky;
         top: 0;
-        background: rgba(248, 250, 252, 0.95);
+        background: var(--neutral-200);
         backdrop-filter: blur(10px);
         z-index: 10;
         border-bottom: 1px solid var(--neutral-200);
@@ -110,8 +112,8 @@
       }
 
       .brand-mark {
-        width: 42px;
-        height: 42px;
+        width: 100px;
+        height: 100px;
         display: grid;
       }
 
@@ -141,7 +143,7 @@
 
       .nav-links a {
         font-weight: 600;
-        color: var(--neutral-700);
+        color: var(--primary-900);
       }
 
       .nav-actions {
